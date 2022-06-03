@@ -17,7 +17,8 @@ OVERRIDE_PRODUCT_COMPRESSED_APEX := false
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     vendor/qcom/opensource/commonsys-intf/display \
-    vendor/qcom/opensource/wfd-commonsys
+    vendor/qcom/opensource/wfd-commonsys \
+    vendor/nxp/opensource/pn5xx
 
 # Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
