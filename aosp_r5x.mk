@@ -32,6 +32,8 @@ PRODUCT_GMS_CLIENTID_BASE := android-realme
 TARGET_VENDOR_PRODUCT_NAME := r5x
 TARGET_VENDOR_DEVICE_NAME := r5x
 
+# Build info
+BUILD_FINGERPRINT := "google/raven/raven:12/SQ3A.220705.003/8671607:user/release-keys"
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="r5x" \
     PRIVATE_BUILD_DESC="trinket-user 10 QKQ1.200209.002 release-keys"
