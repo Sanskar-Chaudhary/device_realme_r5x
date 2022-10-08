@@ -37,3 +37,7 @@ BUILD_FINGERPRINT := "google/raven/raven:12/SQ3A.220705.003/8671607:user/release
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="r5x" \
     PRIVATE_BUILD_DESC="trinket-user 10 QKQ1.200209.002 release-keys"
+
+# Gapps
+SUPERIOR_EDITION := GAPPS
+BUILD_WITH_GAPPS := true
